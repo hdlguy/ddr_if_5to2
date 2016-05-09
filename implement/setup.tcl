@@ -2,7 +2,7 @@
 file delete -force proj.xpr *.os *.jou *.log proj.srcs proj.cache proj.runs
 #
 create_project -force proj 
-set_property part xc7z020clg400-1 [current_project]
+set_property part xc7a50tfgg484-2 [current_project]
 #set_property board_part em.avnet.com:microzed_7020:part0:1.1 [current_project]
 #create_project -in_memory -part xc7z020clg400-1 proj
 set_property target_language Verilog [current_project]
@@ -14,6 +14,7 @@ file delete -force ./ip
 file mkdir ./ip
 
 read_ip ../source/ddr_io_wiz0/ddr_io_wiz0.xci
+read_ip ../source/ddr_if_clk_wiz/ddr_if_clk_wiz.xci
 upgrade_ip -quiet  [get_ips *]
 generate_target {all} [get_ips *]
 
