@@ -1,5 +1,5 @@
 //
-module ddr_if_5to2 (
+module dac_if_5to2 (
     output  logic   clkout,
     input   logic   dcm_reset,
     output  logic   dcm_locked,
