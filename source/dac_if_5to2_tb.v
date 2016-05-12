@@ -30,7 +30,7 @@ module dac_if_5to2_tb;
     // generate some input data
     always_ff @(posedge clkout) begin
         if(dcm_locked == 0) 
-            data_in <= {4, 3, 2, 1, 0};
+            data_in[4:0] <= {14'h4, 14'h3, 14'h2, 14'h1, 14'h0};
         else begin
             for(int i=0; i<5; i++) data_in[i] <= data_in[i] + 5;
         end
