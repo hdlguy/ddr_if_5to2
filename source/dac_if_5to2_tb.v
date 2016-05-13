@@ -1,4 +1,3 @@
-
 module dac_if_5to2_tb;
 
     logic   clkout;

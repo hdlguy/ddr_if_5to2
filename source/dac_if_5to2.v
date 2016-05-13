@@ -1,4 +1,5 @@
-//
+// This module performs a 5 to 2 multiplex operation using Virtex-7 I/O logic to feed
+// a dac with a 2 to 1 input multiplexor and DDR clock.
 module dac_if_5to2 (
     output  logic   clkout,
     input   logic   dcm_reset,
