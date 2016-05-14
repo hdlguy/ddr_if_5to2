@@ -23,32 +23,20 @@ module dac_if_5to2 (
 
     // this is the clock domain crossing fifo.
     logic   [4:0][13:0]     fifo_dout;
-    logic   [3:0]           fifo_rd;
+    logic   fifo_full, fifo_empty;
     dac_if_fifo dac_fifo (
         .rst(fifo_reset),        
         //
         .wr_clk(sysclk_in),  
-        .wr_en(1'b1),    
-        .full(),      
+        .wr_en(~fifo_full),    
+        .full(fifo_full),      
         .din(data_in),        // input wire [69 : 0] din
         //
         .rd_clk(clk320),  
-        .rd_en(fifo_rd[0]),    
-        .empty(),
+        .rd_en(~fifo_empty),    
+        .empty(fifo_empty),
         .dout(fifo_dout)      // output wire [69 : 0] dout
     );
-
-
-    // This logic holds off read until the fifo has a couple of values in it.
-    always @(posedge clk320 or posedge fifo_reset) begin
-        if(fifo_reset == 1'b1) begin
-            fifo_rd <= 0;
-        end else begin
-            fifo_rd[2:0] <= fifo_rd[3:1];
-            fifo_rd[3]   <= 1'b1;
-        end
-    end
-
 
     // demultiplex input data by 4 and cross clock domain
     logic   [3:0][4:0][13:0]    shift_data, d1;
