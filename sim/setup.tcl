@@ -7,6 +7,7 @@ create_fileset -simset simset
 
 read_ip [ glob ../source/ddr_if_clk_wiz/ddr_if_clk_wiz.xci ]
 read_ip [ glob ../source/ddr_io_wiz0/ddr_io_wiz0.xci ]
+read_ip [ glob ../source/dac_if_fifo/dac_if_fifo.xci ]
 generate_target {all} [get_ips *]
 
 read_verilog -sv [glob ../source/dac_if_5to2.v]

@@ -3,6 +3,7 @@ module dac_if_5to2_tb;
     logic   clkout;
     logic   dcm_reset;
     logic   dcm_locked;
+    logic   sysclk_in;
     logic   [4:0][13:0]     data_in;
     logic   dataclk_in_p;
     logic   dataclk_in_n;
@@ -19,6 +20,8 @@ module dac_if_5to2_tb;
     always #(clk_period/2) clkin = ~clkin;
     assign dataclk_in_p =  clkin;
     assign dataclk_in_n = ~clkin;
+
+    assign sysclk_in = clkout;
     
     initial begin
         dcm_reset = 1;

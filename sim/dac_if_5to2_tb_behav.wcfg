@@ -11,11 +11,11 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="200000001fs"></ZoomEndTime>
-      <Cursor1Time time="200000000fs"></Cursor1Time>
+      <ZoomStartTime time="53354000fs"></ZoomStartTime>
+      <ZoomEndTime time="155354001fs"></ZoomEndTime>
+      <Cursor1Time time="70354000fs"></Cursor1Time>
    </zoom_setting>
-   <WVObjectSize size="23" />
+   <WVObjectSize size="34" />
    <wvobject type="logic" fp_name="/dac_if_5to2_tb/clkin">
       <obj_property name="ElementShortName">clkin</obj_property>
       <obj_property name="ObjectShortName">clkin</obj_property>
@@ -40,51 +40,6 @@
       <obj_property name="ElementShortName">data_in[4:0][13:0]</obj_property>
       <obj_property name="ObjectShortName">data_in[4:0][13:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[4]">
-         <obj_property name="ElementShortName">[4][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[3]">
-         <obj_property name="ElementShortName">[3][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[2]">
-         <obj_property name="ElementShortName">[2][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[1]">
-         <obj_property name="ElementShortName">[1][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[0]">
-         <obj_property name="ElementShortName">[0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[4]">
-         <obj_property name="ElementShortName">[4][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[3]">
-         <obj_property name="ElementShortName">[3][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[2]">
-         <obj_property name="ElementShortName">[2][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[1]">
-         <obj_property name="ElementShortName">[1][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_in[0]">
-         <obj_property name="ElementShortName">[0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-      </wvobject>
    </wvobject>
    <wvobject type="logic" fp_name="/dac_if_5to2_tb/dataclk_out_p">
       <obj_property name="ElementShortName">dataclk_out_p</obj_property>
@@ -101,23 +56,11 @@
          <obj_property name="ElementShortName">[1][13:0]</obj_property>
          <obj_property name="ObjectShortName">[1][13:0]</obj_property>
          <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
-         <obj_property name="UseCustomSignalColor">true</obj_property>
       </wvobject>
       <wvobject type="array" fp_name="/dac_if_5to2_tb/data_out_p[0]">
          <obj_property name="ElementShortName">[0][13:0]</obj_property>
          <obj_property name="ObjectShortName">[0][13:0]</obj_property>
          <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
-         <obj_property name="UseCustomSignalColor">true</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_out_p[1]">
-         <obj_property name="ElementShortName">[1][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/data_out_p[0]">
-         <obj_property name="ElementShortName">[0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][13:0]</obj_property>
       </wvobject>
    </wvobject>
    <wvobject fp_name="divider18" type="divider">
@@ -136,230 +79,15 @@
       <obj_property name="ElementShortName">clk320</obj_property>
       <obj_property name="ObjectShortName">clk320</obj_property>
    </wvobject>
+   <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/fifo_dout">
+      <obj_property name="ElementShortName">fifo_dout[4:0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_dout[4:0][13:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
    <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1">
       <obj_property name="ElementShortName">d1[3:0][4:0][13:0]</obj_property>
       <obj_property name="ObjectShortName">d1[3:0][4:0][13:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3]">
-         <obj_property name="ElementShortName">[3][4:0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][4:0][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         <obj_property name="isExpanded"></obj_property>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][4]">
-            <obj_property name="ElementShortName">[4][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][3]">
-            <obj_property name="ElementShortName">[3][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][2]">
-            <obj_property name="ElementShortName">[2][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][1]">
-            <obj_property name="ElementShortName">[1][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][0]">
-            <obj_property name="ElementShortName">[0][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][4]">
-            <obj_property name="ElementShortName">[4][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][3]">
-            <obj_property name="ElementShortName">[3][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][2]">
-            <obj_property name="ElementShortName">[2][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][1]">
-            <obj_property name="ElementShortName">[1][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3][0]">
-            <obj_property name="ElementShortName">[0][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-         </wvobject>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2]">
-         <obj_property name="ElementShortName">[2][4:0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][4:0][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         <obj_property name="isExpanded"></obj_property>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][4]">
-            <obj_property name="ElementShortName">[4][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][3]">
-            <obj_property name="ElementShortName">[3][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][2]">
-            <obj_property name="ElementShortName">[2][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][1]">
-            <obj_property name="ElementShortName">[1][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][0]">
-            <obj_property name="ElementShortName">[0][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][4]">
-            <obj_property name="ElementShortName">[4][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][3]">
-            <obj_property name="ElementShortName">[3][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][2]">
-            <obj_property name="ElementShortName">[2][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][1]">
-            <obj_property name="ElementShortName">[1][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2][0]">
-            <obj_property name="ElementShortName">[0][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-         </wvobject>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1]">
-         <obj_property name="ElementShortName">[1][4:0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][4:0][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         <obj_property name="isExpanded"></obj_property>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][4]">
-            <obj_property name="ElementShortName">[4][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][3]">
-            <obj_property name="ElementShortName">[3][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][2]">
-            <obj_property name="ElementShortName">[2][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][1]">
-            <obj_property name="ElementShortName">[1][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][0]">
-            <obj_property name="ElementShortName">[0][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][4]">
-            <obj_property name="ElementShortName">[4][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][3]">
-            <obj_property name="ElementShortName">[3][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][2]">
-            <obj_property name="ElementShortName">[2][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][1]">
-            <obj_property name="ElementShortName">[1][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1][0]">
-            <obj_property name="ElementShortName">[0][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-         </wvobject>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0]">
-         <obj_property name="ElementShortName">[0][4:0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][4:0][13:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         <obj_property name="isExpanded"></obj_property>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][4]">
-            <obj_property name="ElementShortName">[4][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][3]">
-            <obj_property name="ElementShortName">[3][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][2]">
-            <obj_property name="ElementShortName">[2][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][1]">
-            <obj_property name="ElementShortName">[1][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][0]">
-            <obj_property name="ElementShortName">[0][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][4]">
-            <obj_property name="ElementShortName">[4][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[4][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][3]">
-            <obj_property name="ElementShortName">[3][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][2]">
-            <obj_property name="ElementShortName">[2][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][1]">
-            <obj_property name="ElementShortName">[1][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
-         </wvobject>
-         <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0][0]">
-            <obj_property name="ElementShortName">[0][13:0]</obj_property>
-            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
-         </wvobject>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[3]">
-         <obj_property name="ElementShortName">[3][4:0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[3][4:0][13:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[2]">
-         <obj_property name="ElementShortName">[2][4:0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[2][4:0][13:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[1]">
-         <obj_property name="ElementShortName">[1][4:0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[1][4:0][13:0]</obj_property>
-      </wvobject>
-      <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d1[0]">
-         <obj_property name="ElementShortName">[0][4:0][13:0]</obj_property>
-         <obj_property name="ObjectShortName">[0][4:0][13:0]</obj_property>
-      </wvobject>
    </wvobject>
    <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/d2">
       <obj_property name="ElementShortName">d2[19:0][13:0]</obj_property>
@@ -402,5 +130,45 @@
    <wvobject type="logic" fp_name="/dac_if_5to2_tb/uut/serdes_1/io_reset">
       <obj_property name="ElementShortName">io_reset</obj_property>
       <obj_property name="ObjectShortName">io_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider127" type="divider">
+      <obj_property name="label">fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dac_if_5to2_tb/uut/dac_fifo/wr_clk">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dac_if_5to2_tb/uut/dac_fifo/rd_clk">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dac_if_5to2_tb/uut/dac_fifo/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dac_if_5to2_tb/uut/dac_fifo/full">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dac_if_5to2_tb/uut/dac_fifo/empty">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dac_if_5to2_tb/uut/dac_fifo/wr_en">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dac_if_5to2_tb/uut/dac_fifo/rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/dac_fifo/din">
+      <obj_property name="ElementShortName">din[69:0]</obj_property>
+      <obj_property name="ObjectShortName">din[69:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dac_if_5to2_tb/uut/dac_fifo/dout">
+      <obj_property name="ElementShortName">dout[69:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[69:0]</obj_property>
    </wvobject>
 </wave_config>
